@@ -11,7 +11,9 @@ namespace Lab12
     {
         string get = string.Empty;
         string url = @"https://www.random.org/integers/?num=10&min=1&max=6&col=1&base=10&format=plain&rnd=new";
-        
+        IController myController = new Controller();
+
+        internal IController MyController { get => myController; set => myController = value; }
 
         public void getRequest()
         {
@@ -24,10 +26,20 @@ namespace Lab12
             using (StreamReader reader = new StreamReader(stream))
             {
                 get = reader.ReadToEnd();
+                Console.Write(get);
+                if (response.StatusCode == HttpStatusCode.OK)
+                    notify();
             }
-            notify();
         }
 
-       
+        public void notify()
+        {
+            Console.WriteLine("\nRequest basarili");
+        }
+
+        public void setController(IController controller)
+        {
+            MyController = controller;
+        }
     }
 }

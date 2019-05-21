@@ -7,8 +7,8 @@ namespace Lab12
 {
     interface IModel
     {
-         void getRequest();
-         void notify();
-         void setController(IController i);
+        void getRequest();
+        void notify();
+        void setController(IController i);
     }
 }

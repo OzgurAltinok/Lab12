@@ -4,3 +4,9 @@ C:\Users\Baris\source\repos\Lab12\Lab12\obj\Debug\Lab12.csprojAssemblyReference.
 C:\Users\Baris\source\repos\Lab12\Lab12\obj\Debug\Lab12.csproj.CoreCompileInputs.cache
 C:\Users\Baris\source\repos\Lab12\Lab12\obj\Debug\Lab12.exe
 C:\Users\Baris\source\repos\Lab12\Lab12\obj\Debug\Lab12.pdb
+C:\Users\Ozgur Can\Desktop\nesne\Lab12\Lab12_Template\Lab12\obj\Debug\Lab12.csprojAssemblyReference.cache
+C:\Users\Ozgur Can\Desktop\nesne\Lab12\Lab12_Template\Lab12\obj\Debug\Lab12.csproj.CoreCompileInputs.cache
+C:\Users\Ozgur Can\Desktop\nesne\Lab12\Lab12_Template\Lab12\obj\Debug\Lab12.exe
+C:\Users\Ozgur Can\Desktop\nesne\Lab12\Lab12_Template\Lab12\obj\Debug\Lab12.pdb
+C:\Users\Ozgur Can\Desktop\nesne\Lab12\Lab12_Template\Lab12\bin\Debug\Lab12.exe
+C:\Users\Ozgur Can\Desktop\nesne\Lab12\Lab12_Template\Lab12\bin\Debug\Lab12.pdb

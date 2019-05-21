@@ -9,26 +9,33 @@ namespace Lab12
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Model 1");
+            Console.WriteLine("\nModel 1");
+
             IModel model = new IntegerGenerator();
             IView view = new View();
             IController controller = new Controller();
+
             model.setController(controller);
             controller.setView(view);
             controller.setModel(model);
             controller.getRequestFromModel();
-            /*Model 2 */
-            Console.WriteLine("Model 2");
+
+            Console.WriteLine("\nModel 2");
+
             model = new SequenceGenerator();
+
             model.setController(controller);
             controller.setModel(model);
             controller.getRequestFromModel();
-            /*Model 3*/
-            Console.WriteLine("Model 3");
+
+            Console.WriteLine("\nModel 3");
+
             model = new StringGenerator();
+
             model.setController(controller);
             controller.setModel(model);
             controller.getRequestFromModel();
+
             Console.ReadLine();
         }
     }
